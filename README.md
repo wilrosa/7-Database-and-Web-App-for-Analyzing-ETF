@@ -85,7 +85,15 @@ In this section, I built the entire ETF portfolio and then evaluated its perform
 
 Finally, I used the Voilà library to deploy the notebook as a web application, as demonstrated by the following screen shot:
 
-![Voila_Screenshot](voila_screenshot.png)
+![Voila_Screenshot_2](voila_screenshot_2.png)
+
+![Voila_Screenshot_3](voila_screenshot_3.png)
+
+![Voila_Screenshot_4](voila_screenshot_4.png)
+
+![Voila_Screenshot_5](voila_screenshot_5.png)
+
+![Voila_Screenshot_6](voila_screenshot_6.png)
 
 ---
 ## Contributors
