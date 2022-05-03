@@ -8,18 +8,10 @@ The `etf_analyzer.ipynb` notebook contains the analysis of a fintech ETF that co
 
 ## Installation Guide
 
-First, install geoviews and hvplot into your development environment. In the workbook, you may then use the read_csv function and Path module, to create a DataFrame by importing the sfo_neighborhoods_census_data.csv file from a named "Resources" folder.
+First, voila was installed into the development environment.
 
 ```python
-conda install -c pyviz geoviews
-conda install -c pyviz hvplot
-
-
-
-sfo_data_df = pd.read_csv(
-    Path("./Resources/sfo_neighborhoods_census_data.csv")
-)
-
+pip install voila
 ```
 ---
 
@@ -30,6 +22,10 @@ This project leverages python 3.7 with the following libraries and dependencies:
 * [pandas](https://github.com/pandas-dev/pandas) - For manipulating data
 
 * [hvplot](https://github.com/holoviz/hvplot) - High-level plotting API for the PyData ecosystem built on HoloViews
+
+* [numpy](https://github.com/numpy) - Fundamental package for scientific computing with Python
+
+* [sqlalchemy](https://github.com/sqlalchemy/sqlalchemy) - Python SQL toolkit and Object Relational Mapper
 
 ---
 
