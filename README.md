@@ -15,7 +15,6 @@ conda install -c pyviz geoviews
 conda install -c pyviz hvplot
 
 
-from pathlib import Path
 
 sfo_data_df = pd.read_csv(
     Path("./Resources/sfo_neighborhoods_census_data.csv")
@@ -90,7 +89,7 @@ In this section, I built the entire ETF portfolio and then evaluated its perform
 
 Finally, I used the Voilà library to deploy the notebook as a web application, as demonstrated by the following screen shot:
 
-![Loan Qualifier Prompts](Images/loan_qalifier.png)
+![Voila_Screenshot](voila_screenshot.png)
 
 ---
 ## Contributors
